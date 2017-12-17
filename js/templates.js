@@ -1,0 +1,2 @@
+angular.module('app').run(['$templateCache', function($templateCache) {$templateCache.put('app/components/root/views/root.html','<p>hello world!</p>');
+$templateCache.put('app/core/layout/views/layout.html','<div ui-view="main-layout"></div>');}]);
